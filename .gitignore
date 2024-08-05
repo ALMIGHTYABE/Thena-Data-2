@@ -140,3 +140,7 @@ dmypy.json
 # Notebooks
 notebooks
 research
+
+# Files
+ids_data.csv
+ids_data_v2.csv
