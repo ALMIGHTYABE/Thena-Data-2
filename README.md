@@ -1,4 +1,4 @@
-# Thena-Data
+# Thena-Data-2
 Python Script to pull data and write to Google Sheets
 - Uses Subgraph to pull day and pairs data
 - Reads Contract Data to find pair names
