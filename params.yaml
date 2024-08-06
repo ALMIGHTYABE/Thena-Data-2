@@ -14,6 +14,9 @@ query:
 web3:
   provider_url: https://rpc.ankr.com/bsc
   provider_urls: ['https://rpc.ankr.com/bsc', 'https://binance.llamarpc.com', 'https://bsc.meowrpc.com', 'https://bsc-dataseed.bnbchain.org']
+  id_abi: [{"inputs":[],"name":"pool","outputs":[{"internalType":"contract IAlgebraPool","name":"","type":"address"}],"stateMutability":"view","type":"function"}]
+
+
   ve_contract: "0x3A1D0952809F4948d15EBCe8d345962A282C4fCb"
   amm_abi: 
   voter_abi: 
@@ -46,7 +49,7 @@ files:
   epoch_data: 
   epoch_daily_data: 
   bribe_data: 
-  id_data: 
+  id_data: https://raw.githubusercontent.com/ALMIGHTYABE/Thena-Data-2/main/data/id_data.csv
   daily_data: 
   pair_data: 
   emissions_data: 
@@ -56,3 +59,5 @@ files:
   pair_data_combined: 
   fee_data: 
   tvl_data: 
+
+
